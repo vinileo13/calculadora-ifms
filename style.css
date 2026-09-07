@@ -1,0 +1,297 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.quadrado {
+  width: 400px;
+  height: 600px;
+  background-color: #8d9296;
+   position: absolute; /* Permite mover livremente pela tela */
+    /* Mude estes valores para colocar o quadrado onde quiser: */
+    top: 270px;         /* Distância do topo da tela */
+    left: 625px;        /* Distância da esquerda da tela */
+  
+}
+
+.painel{
+  width: 350px;
+  height: 90px;
+  background-color: #ffffff;
+  position: absolute; /* Permite mover livremente pela tela */
+    /* Mude estes valores para colocar o quadrado onde quiser: */
+    top: 290px;         /* Distância do topo da tela */
+    left: 650px;
+    text-align: center
+}
+
+.flexivel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sete {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 450px;         
+    left: 650px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.oito {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 450px;         
+    left: 740px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nove {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 450px;         
+    left: 830px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.mais {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 450px;         
+    left: 920px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.quatro {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 540px;         
+    left: 650px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.cinco {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 540px;         
+    left: 740px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.seis {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 540px;         
+    left: 830px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.menos {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 540px;         
+    left: 920px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.um {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 630px;         
+    left: 650px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.dois {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 630px;         
+    left: 740px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.tres {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 630px;         
+    left: 830px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.vezes {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 630px;         
+    left: 920px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.divisao {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 720px;         
+    left: 650px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.igual {
+    width: 80px;
+    height: 130px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 720px;         
+    left: 920px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.zero {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 720px;         
+    left: 830px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.ponto {
+    width: 80px;
+    height: 80px;
+    background-color: #606263; 
+    border-radius: 12px;
+    display: flex;
+    position: absolute; 
+    top: 720px;         
+    left: 740px;      
+    gap: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.quadrado,
+.painel,
+.sete,
+.oito,
+.nove,
+.mais,
+.quatro,
+.cinco,
+.seis,
+.menos,
+.um,
+.dois,
+.tres,
+.vezes,
+.divisao,
+.igual,
+.zero,
+.ponto {
+    transform: translateY(-80px);
+    border-radius: 12px;
+}
