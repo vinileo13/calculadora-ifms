@@ -1,57 +1,38 @@
-let soma = 0;
-let numeroAtual = "";
-
 const painel = document.querySelector(".painel");
 
-
-// NÚMEROS
-document.querySelector(".zero").addEventListener("click", () => adicionarNumero("0"));
-document.querySelector(".um").addEventListener("click", () => adicionarNumero("1"));
-document.querySelector(".dois").addEventListener("click", () => adicionarNumero("2"));
-document.querySelector(".tres").addEventListener("click", () => adicionarNumero("3"));
-document.querySelector(".quatro").addEventListener("click", () => adicionarNumero("4"));
-document.querySelector(".cinco").addEventListener("click", () => adicionarNumero("5"));
-document.querySelector(".seis").addEventListener("click", () => adicionarNumero("6"));
-document.querySelector(".sete").addEventListener("click", () => adicionarNumero("7"));
-document.querySelector(".oito").addEventListener("click", () => adicionarNumero("8"));
-document.querySelector(".nove").addEventListener("click", () => adicionarNumero("9"));
-
-
-// ADICIONAR NÚMERO
-function adicionarNumero(numero) {
-
-    numeroAtual += numero;
-
-    painel.textContent = numeroAtual;
+// Função para adicionar texto ao painel
+function adicionar(valor) {
+    if (painel.textContent === "0") {
+        painel.textContent = valor;
+    } else {
+        painel.textContent += valor;
+    }
 }
 
+// Números
+document.querySelector(".zero").onclick = () => adicionar("0");
+document.querySelector(".um").onclick = () => adicionar("1");
+document.querySelector(".dois").onclick = () => adicionar("2");
+document.querySelector(".tres").onclick = () => adicionar("3");
+document.querySelector(".quatro").onclick = () => adicionar("4");
+document.querySelector(".cinco").onclick = () => adicionar("5");
+document.querySelector(".seis").onclick = () => adicionar("6");
+document.querySelector(".sete").onclick = () => adicionar("7");
+document.querySelector(".oito").onclick = () => adicionar("8");
+document.querySelector(".nove").onclick = () => adicionar("9");
 
-// BOTÃO +
-document.querySelector(".mais").addEventListener("click", () => {
+// Operações
+document.querySelector(".mais").onclick = () => adicionar("+");
+document.querySelector(".menos").onclick = () => adicionar("-");
+document.querySelector(".vezes").onclick = () => adicionar("*");
+document.querySelector(".divisao").onclick = () => adicionar("/");
+document.querySelector(".ponto").onclick = () => adicionar(".");
 
-    if (numeroAtual !== "") {
-
-        soma += Number(numeroAtual);
-
-        numeroAtual = "";
-
-        painel.textContent = soma;
+// Igual
+document.querySelector(".igual").onclick = () => {
+    try {
+        painel.textContent = eval(painel.textContent);
+    } catch {
+        painel.textContent = "Erro";
     }
-
-});
-
-
-// BOTÃO =
-document.querySelector(".igual").addEventListener("click", () => {
-
-    if (numeroAtual !== "") {
-
-        soma += Number(numeroAtual);
-
-        numeroAtual = "";
-
-    }
-
-    painel.textContent = soma;
-
-});
+};
