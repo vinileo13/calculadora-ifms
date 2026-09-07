@@ -292,6 +292,6 @@ p{
 .igual,
 .zero,
 .ponto {
-    transform: translateY(-80px);
+transform: translate(-80px, -80px);
     border-radius: 12px;
 }
