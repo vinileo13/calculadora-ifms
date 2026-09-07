@@ -1,9 +1,17 @@
 h1{
     text-align: center;
+    background-color: #79c944;
+    border-radius: 12px;
 }
 
 p{
     text-align: center;
+}
+
+body{
+    background-color: #d9d9d9;
+    background-image: url("Imagens/ifms-cg.jpg");
+    background-size: cover;
 }
 
 .quadrado {
@@ -28,10 +36,12 @@ p{
     text-align: center
 }
 
-.flexivel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.calculadora {
+    position: relative;
+    width: min(400px, 90vw);
+    height: min(600px, 135vw);
+
+    margin: 0 auto;
 }
 
 .sete {
@@ -292,6 +302,6 @@ p{
 .igual,
 .zero,
 .ponto {
-transform: translate(-80px, -80px);
+    transform: translate(-80px, -80px);
     border-radius: 12px;
 }
