@@ -11,8 +11,14 @@ p{
 body{
     background-color: #d9d9d9;
     background-image: url("Imagens/ifms-cg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
+
 }
+
+
 
 .quadrado {
   width: 400px;
