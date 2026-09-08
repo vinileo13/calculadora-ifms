@@ -260,6 +260,19 @@ body{
     align-items: center;
 }
 
+.limpar {
+    width: 80px;
+    height: 55px;
+    background-color: #606263; 
+    border-radius: 10px;
+    position: absolute; 
+    top: 390px;         /* Alinhado na linha acima do 7, 8, 9 */
+    left: 650px;        /* Mesma coluna (esquerda) do número 7 */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
 .zero {
     width: 80px;
     height: 80px;
@@ -306,6 +319,7 @@ body{
 .vezes,
 .divisao,
 .igual,
+.limpar,
 .zero,
 .ponto {
     transform: translate(-80px, -80px);

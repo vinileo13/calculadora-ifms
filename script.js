@@ -36,3 +36,8 @@ document.querySelector(".igual").onclick = () => {
         painel.textContent = "Erro";
     }
 };
+
+// Limpar
+document.querySelector(".limpar").onclick = () => {
+    painel.textContent = "0";
+};
