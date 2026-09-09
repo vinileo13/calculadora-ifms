@@ -297,6 +297,46 @@ body{
     align-items: center;
 }
 
+@media (max-width: 600px) {
+
+    .quadrado {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .painel {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .sete, .quatro, .um, .divisao {
+        left: calc(50% - 175px);
+    }
+
+    .oito, .cinco, .dois, .ponto {
+        left: calc(50% - 85px);
+    }
+
+    .nove, .seis, .tres, .zero {
+        left: calc(50% + 5px);
+    }
+
+    .mais, .menos, .vezes, .igual {
+        left: calc(50% + 95px);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .calculadora {
+        transform: scale(0.8);
+        transform-origin: top center;
+        margin-top: 20px;
+    }
+
+}
+
 .quadrado,
 .painel,
 .sete,
