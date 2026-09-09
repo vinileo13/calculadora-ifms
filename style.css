@@ -1,4 +1,4 @@
-h1{
+ h1{
     text-align: center;
     background-color: #79c944;
     border-radius: 12px;
@@ -11,14 +11,8 @@ p{
 body{
     background-color: #d9d9d9;
     background-image: url("Imagens/ifms-cg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     background-size: cover;
-
 }
-
-
 
 .quadrado {
   width: 400px;
@@ -247,7 +241,7 @@ body{
 
 .igual {
     width: 80px;
-    height: 130px;
+    height: 80px;
     background-color: #606263; 
     border-radius: 12px;
     display: flex;
