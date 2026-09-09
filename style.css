@@ -327,16 +327,6 @@ body{
 
 }
 
-@media (max-width: 600px) {
-
-    .calculadora {
-        transform: scale(0.8);
-        transform-origin: top center;
-        margin-top: 20px;
-    }
-
-}
-
 .quadrado,
 .painel,
 .sete,
